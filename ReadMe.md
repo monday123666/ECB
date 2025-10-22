@@ -1,7 +1,7 @@
 # Evaluation Cultural Bias 🌍
 ## A Comprehensive Framework for Assessing Cultural Representation in Generative Image Models
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.12.4+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the implementation and evaluation framework for **Evaluation Cultural Bias (ECB)**, a comprehensive methodology for assessing cultural representation and bias in generative image models across multiple countries and cultural contexts.
@@ -59,14 +59,14 @@ ECB/
 │   ├── T2I/                       # Text-to-Image generation
 │   │   ├── flux/                  # FLUX T2I implementation
 │   │   ├── hidream/               # HiDream T2I implementation
-│   │   ├── qwen/                  # Qwen-VL T2I implementation
-│   │   ├── nextstep/              # NextStep T2I implementation
+│   │   ├── qwen/generate_qwen_image.py                  # Qwen-VL T2I implementation
+│   │   ├── nextstep/generate_nextstep.py              # NextStep T2I implementation
 │   │   └── sd35/                  # Stable Diffusion 3.5 T2I
 │   └── I2I/                       # Image-to-Image editing
 │       ├── flux/                  # FLUX I2I implementation
 │       ├── hidream/               # HiDream I2I implementation
-│       ├── qwen/                  # Qwen-VL I2I implementation
-│       ├── nextstep/              # NextStep I2I implementation
+│       ├── qwen/edit_qwen_image.py                  # Qwen-VL I2I implementation
+│       ├── nextstep/edit_nextstep.py              # NextStep I2I implementation
 │       └── sd35/                  # Stable Diffusion 3.5 I2I
 │
 ├── 🌐 ecb-human-survey/           # Next.js web application
